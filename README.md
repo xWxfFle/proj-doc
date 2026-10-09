@@ -25,10 +25,14 @@ mkdocs serve
 При push в `main` GitHub Actions:
 
 1. запускает markdownlint;
-2. собирает MkDocs;
+2. собирает MkDocs Material;
 3. публикует сайт на GitHub Pages.
 
-Включите Pages: **Settings → Pages → Source: GitHub Actions**.
+Важно: в настройках репозитория должно быть
+
+**Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+Если выбран Deploy from a branch / folder `docs`, GitHub публикует сырой Markdown через Jekyll — без бокового меню Material и иногда с «кракозябрами» в кэше. После переключения на Actions сделайте hard refresh (Ctrl+F5).
 
 ## Участие
 
