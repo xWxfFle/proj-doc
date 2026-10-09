@@ -13,10 +13,10 @@
 
 ## Быстрый старт
 
-1. Прочитайте [назначение и область](about/purpose.md).
-2. Следуйте [правилам языка](rules/language.md) и [структуры](rules/structure.md).
-3. Проверьте оформление по [форматированию](rules/formatting.md).
-4. Перед PR запустите локальный линт и сборку (см. [CONTRIBUTING.md](https://github.com/xWxfFle/style-guide-project/blob/main/CONTRIBUTING.md)).
+1. Прочитайте раздел [назначение и область применения](about/purpose.md).
+2. Следуйте [правилам языка и тона](rules/language.md) и [структуре документов](rules/structure.md).
+3. Проверьте оформление по [правилам форматирования](rules/formatting.md).
+4. Перед PR запустите локальный линт и сборку — порядок описан на странице [как предложить изменение в руководство](contributing.md).
 
 ## Принципы
 

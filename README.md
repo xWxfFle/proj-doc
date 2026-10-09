@@ -32,4 +32,4 @@ mkdocs serve
 
 ## Участие
 
-См. [CONTRIBUTING.md](CONTRIBUTING.md).
+См. [как предложить изменение в руководство](CONTRIBUTING.md).

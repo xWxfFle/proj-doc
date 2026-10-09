@@ -1,8 +1,8 @@
 site_name: Стайлгайд документации
 site_description: Руководство по стилю технической документации веб/SaaS-продукта
 site_author: style-guide-project
-repo_url: https://github.com/xWxfFle/style-guide-project
-repo_name: style-guide-project
+repo_url: https://github.com/xWxfFle/proj-doc
+repo_name: proj-doc
 
 theme:
   name: material
@@ -50,6 +50,7 @@ nav:
   - О стайлгайде:
       - Назначение и область: about/purpose.md
       - Как пользоваться: about/how-to-use.md
+      - Как предложить изменение: contributing.md
   - Правила:
       - Язык и тон: rules/language.md
       - Структура документов: rules/structure.md
