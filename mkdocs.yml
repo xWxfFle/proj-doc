@@ -57,6 +57,7 @@ nav:
       - Терминология: rules/terminology.md
       - Примеры кода: rules/code-examples.md
       - Заголовки и списки: rules/headings.md
+      - Доступность текста: rules/accessibility.md
   - Примеры:
       - Хороший README: examples/readme.md
       - Фрагмент руководства: examples/user-guide.md
