@@ -28,9 +28,7 @@ mkdocs serve
 2. собирает MkDocs Material;
 3. публикует сайт на GitHub Pages.
 
-Важно: в настройках репозитория должно быть
-
-**Settings → Pages → Build and deployment → Source: GitHub Actions**
+Важно: в настройках репозитория в разделе **Settings → Pages → Build and deployment** должно быть выбрано **Source: GitHub Actions**.
 
 Если выбран Deploy from a branch / folder `docs`, GitHub публикует сырой Markdown через Jekyll — без бокового меню Material и иногда с «кракозябрами» в кэше. После переключения на Actions сделайте hard refresh (Ctrl+F5).
 
