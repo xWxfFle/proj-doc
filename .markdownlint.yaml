@@ -1,0 +1,11 @@
+# Правила линтинга Markdown для документации
+default: true
+MD013: false          # длина строки — не ограничиваем (кириллица)
+MD033: false          # HTML допускается (admonitions MkDocs)
+MD041: false          # первый заголовок может отсутствовать в partials
+MD024:
+  siblings_only: true # одинаковые заголовки в разных секциях OK
+MD029:
+  style: ordered
+MD046:
+  style: fenced

@@ -1,0 +1,65 @@
+site_name: Стайлгайд документации
+site_description: Руководство по стилю технической документации веб/SaaS-продукта
+site_author: style-guide-project
+repo_url: https://github.com/xWxfFle/style-guide-project
+repo_name: style-guide-project
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+
+nav:
+  - Главная: index.md
+  - О стайлгайде:
+      - Назначение и область: about/purpose.md
+      - Как пользоваться: about/how-to-use.md
+  - Правила:
+      - Язык и тон: rules/language.md
+      - Структура документов: rules/structure.md
+      - Форматирование: rules/formatting.md
+      - Терминология: rules/terminology.md
+      - Примеры кода: rules/code-examples.md
+      - Заголовки и списки: rules/headings.md
+  - Примеры:
+      - Хороший README: examples/readme.md
+      - Фрагмент руководства: examples/user-guide.md
+  - Лабораторная:
+      - Ответы на вопросы: lab/answers.md
+      - Тестирование стайлгайда: lab/testing.md
