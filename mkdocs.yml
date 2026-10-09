@@ -1,8 +1,12 @@
 site_name: Стайлгайд документации
 site_description: Руководство по стилю технической документации веб/SaaS-продукта
 site_author: style-guide-project
+site_url: https://xwxffle.github.io/proj-doc/
 repo_url: https://github.com/xWxfFle/proj-doc
 repo_name: proj-doc
+
+exclude_docs: |
+  includes/**
 
 theme:
   name: material
@@ -21,11 +25,13 @@ theme:
         icon: material/brightness-4
         name: Светлая тема
   features:
-    - navigation.tabs
+    - navigation.instant
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - search.highlight
     - content.code.copy
+    - toc.follow
 
 plugins:
   - search:
@@ -34,6 +40,10 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.snippets:
+      base_path:
+        - docs
+      check_paths: true
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true

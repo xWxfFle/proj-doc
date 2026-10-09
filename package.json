@@ -4,8 +4,8 @@
   "private": true,
   "description": "Style guide for technical documentation (Docs as Code)",
   "scripts": {
-    "lint": "markdownlint \"**/*.md\" --ignore node_modules --ignore site",
-    "lint:fix": "markdownlint \"**/*.md\" --ignore node_modules --ignore site --fix",
+    "lint": "markdownlint \"**/*.md\" --ignore node_modules --ignore site --ignore docs/includes",
+    "lint:fix": "markdownlint \"**/*.md\" --ignore node_modules --ignore site --ignore docs/includes --fix",
     "docs:serve": "mkdocs serve",
     "docs:build": "mkdocs build --strict"
   },
