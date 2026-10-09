@@ -5,9 +5,6 @@ site_url: https://xwxffle.github.io/proj-doc/
 repo_url: https://github.com/xWxfFle/proj-doc
 repo_name: proj-doc
 
-exclude_docs: |
-  includes/**
-
 theme:
   name: material
   language: ru
@@ -40,10 +37,6 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.snippets:
-      base_path:
-        - docs
-      check_paths: true
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
